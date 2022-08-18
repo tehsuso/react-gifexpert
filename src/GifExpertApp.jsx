@@ -4,7 +4,7 @@ import { AddCategory, GifGrid } from "./components"
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState([])
+    const [categories, setCategories] = useState([''])
 
     const onAddCategory = ( newCategory ) => {
         const categoriesLower = categories.map(e=>e.toLocaleLowerCase())
